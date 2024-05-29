@@ -1,8 +1,6 @@
 from aiogram.types import ReplyKeyboardMarkup, KeyboardButton
 
 def get_keyboard_1():
-#Этот код позволяет нам автоматически изменять размер кнопак под размер устройства
-#Название_клавиатуры = библиотека(resize_keyboard= True)
     keybord = ReplyKeyboardMarkup(resize_keyboard= True)
     button_1 = KeyboardButton('Открыть список супов')
     keybord.add(button_1)
